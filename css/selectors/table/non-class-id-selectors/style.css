@@ -1,0 +1,31 @@
+*{
+    font-family: Arial;
+}
+
+body{
+    margin: 2px;
+    padding: 2px;
+}
+
+th{
+    padding: 7px;
+    color: #6e8abf;
+    font-size: 9pt;
+    background-color: #c0e3ee;
+}
+
+td{
+    padding: 14px;
+    color: #3d81ad;
+    text-align: left;
+    vertical-align: middle;
+    font-size: 12pt;
+}
+
+tr:nth-of-type(odd){
+    background-color: #b2daf5;
+}
+
+tr:nth-of-type(even){
+    background-color: #d9e8fa;
+}
