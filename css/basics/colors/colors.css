@@ -1,0 +1,19 @@
+h1{
+    background-color: #1e9200;
+    width: 50%;
+}
+
+h2{
+    background-color: rgba(0%, 0%, 80%, .6); /* green */
+    padding: 20px;
+    margin: 20px;
+    width: 40%;
+}
+
+#text1{
+    color: #eeeeee;
+}
+
+#text2{
+    color: rgba(100%, 100%, 80%, .9);
+}
