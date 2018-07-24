@@ -1,0 +1,76 @@
+html {
+    display: table;
+    width: 100%;
+}
+
+body {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.box{
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(to top, darkblue, aqua, darkblue);
+}
+
+.right{
+    float: right;
+}
+
+.left{
+    float: left;
+}
+
+#circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 65% 15%, aqua, darkblue);
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-name: circle;
+}
+
+#infanim{
+    margin: 50px 100px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 50% 50%, green, lightgreen);
+    animation-duration: 10s;
+    animation-name: infanim;
+    animation-iteration-count: infinite;
+}
+
+@keyframes circle {
+    from {
+        margin-left: -50px;
+    }
+    to {
+        margin-left: 100%;
+        transform: rotate(1440deg);
+    }
+}
+
+@keyframes infanim {
+    16% {
+        border-radius: 0;
+    }
+    33%{
+        background: radial-gradient(circle at 20% 70%, blue, lightblue, darkblue);
+    }
+    50%{
+        transform: scale(2) skew(45deg);
+    }
+    66%{
+        transform: rotate(180deg);
+    }
+    83%{
+        background: radial-gradient(circle at 20% 70%, red, lightgoldenrodyellow, darkred);
+    }
+    100%{
+        border-radius: 50%;
+    }
+}
