@@ -1,0 +1,60 @@
+*{
+    color: white;
+}
+
+#rectangle {
+    width: 160px;
+    height: 10px;
+    background: lightgray;
+    border-bottom: 1px solid darkgrey;
+}
+
+#list{
+    position: absolute;
+    left: 35px;
+    top: 18px;
+    z-index: -1;
+}
+
+label{
+    padding: 5px 10px;
+    position: absolute;
+    text-align: center;
+    width: 80px;
+    background: dodgerblue;
+    border-top: 1px solid darkgrey;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    cursor: pointer;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+
+li{
+    display: block;
+    justify-content: center;
+    width: 100px;
+    background: dodgerblue;
+    text-align: center;
+}
+
+label:hover{
+    box-shadow: 0 0 10px rgba(0,0,255,0.5);
+}
+
+#list:active > ul{
+    display: block;
+}
+
+ul:hover{
+    display: block;
+}
+
+li:hover{
+    background: blue;
+}
+
