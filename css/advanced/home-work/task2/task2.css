@@ -1,0 +1,72 @@
+*{
+   color: white;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#menu{
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    width:auto;
+}
+
+#menu > img{
+    position: absolute;
+    height: 30px;
+    width: 100%;
+    z-index: -1;
+}
+
+#left-menu, #right-menu{
+    display: flex;
+    justify-content: left;
+}
+
+#left-menu > div, #right-menu > div{
+    display: flex;
+    justify-content: left;
+    padding: 7px;
+    margin-right: 2px;
+    background: dodgerblue;
+}
+
+#right-menu > nav{
+    display: flex;
+    justify-content: left;
+    background: black;
+    padding: 7px;
+}
+
+nav > div{
+    padding-left: 15px;
+    padding-right: 20px;
+}
+
+.circle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+    padding-right: 5px;
+    padding-left: 5px;
+    height: 16px;
+    background: red;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 8pt;
+}
+
+#left-menu > div:hover,
+#right-menu div:hover,
+#right-menu nav:hover {
+    background: red;
+}
+
+
+
+
