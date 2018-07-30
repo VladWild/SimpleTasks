@@ -1,0 +1,86 @@
+#float > h3{
+    position: relative;
+    bottom: 5px;
+    left: 1px;
+}
+
+#float > .panel{
+    margin-left: 9px;
+}
+
+#float > .panel > .box{
+    margin-bottom: 20px;
+    margin-right: 18px;
+}
+
+#float > .panel > .box
+{
+    float: left;
+}
+
+#float > .panel > .box:nth-child(4n+4){
+    clear: left;
+}
+
+#float > .panel > .box > .image > img{
+    padding: 11px;
+    border: 1px solid gray;
+    border-radius: 2px;
+    z-index: -1;
+}
+
+#float > .panel > .box > .image > .text{
+    margin-left: 55px;
+    margin-top: 82px;
+    position: absolute;
+    visibility: hidden;
+    z-index: 1;
+}
+
+#float > .panel > .box > .image:hover > img{
+    -webkit-filter: brightness(50%);
+}
+
+#float > .panel > .box > .image:hover > .text{
+    visibility: visible;
+}
+
+#float > .panel > .box > .image > .text > .white{
+    color: white;
+}
+
+#float > .panel > .box > .image > .text > .gray{
+    margin-left: 2px;
+    color: lightgray;
+}
+
+#float > .panel > .box > .image > .text > .green{
+    width: 100px;
+    height: 60px;
+    color: #32ff3b;
+}
+
+#float > .panel > .box > button{
+    padding: 7px 20px;
+    margin-top: 6px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    background: linear-gradient(#fcfff6, #e6f0e2) #e5f9d5;
+}
+
+#float > .panel > .box > .details{
+    margin-right: 10px;
+}
+
+#float > .panel > .box > .image > img:hover{
+    -webkit-filter: brightness(50%);
+}
+
+#float > .panel > .box > button:hover{
+    background: #32ff3b;
+}
+
+#float > .panel > .box > button:active{
+     background: linear-gradient(#e5f9d5 , #fcfff6) #e6f0e2;
+ }
+
