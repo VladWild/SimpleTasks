@@ -1,0 +1,64 @@
+#left-menu{
+    display: inline-block;
+    float: left;
+    width: 200px;
+    height: 100%;
+    background: lightgray;
+}
+
+#left-menu > div{
+    margin-bottom: 5px;
+}
+
+#left-menu .add-book{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 115px;
+    background: #1f2637;
+}
+
+#left-menu .add{
+    background: white;
+    height: 16px; width: 4px;
+    position: relative; left: 6px;
+}
+
+#left-menu .add:after{
+    content: "";
+    height: 4px; width: 16px;
+    background: white;
+    position: absolute; left: -6px; top: 6px;
+}
+
+#left-menu .add-book button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 20px;
+    width: 160px;
+    height: 45px;
+    margin-top: 6px;
+    border: 0 solid gray;
+    border-radius: 5px;
+    background: #f2795a;
+}
+
+#left-menu .add-book button:hover{
+    background: #b95d50;
+}
+
+#left-menu .add-book button:active{
+    background: #ffbea3;
+}
+
+#left-menu .add-book span{
+    color: white;
+}
+
+#left-menu .list{
+    width: 100%;
+    height: 160px;
+    background: #1f2637;
+}

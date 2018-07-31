@@ -1,0 +1,8 @@
+#footer {
+    position: fixed; /* Фиксированное положение */
+    left: 0;
+    bottom: 0; /* Левый нижний угол */
+    height: 45px;
+    background: #181e2c; /* Цвет фона */
+    width: 100%; /* Ширина слоя */
+}
