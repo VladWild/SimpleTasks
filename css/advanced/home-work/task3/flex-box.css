@@ -1,0 +1,90 @@
+#flex{
+    display: block;
+    width: 640px;
+    height: 600px;
+    margin-left: 10px;
+}
+
+#flex > h3{
+    position: relative;
+    bottom: 5px;
+    left: 1px;
+}
+
+#flex > .panel{
+    display: flex;
+    justify-content: space-between;
+}
+
+#flex .vertical-block{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#flex .box{
+    padding-bottom: 20px;
+}
+
+#flex img{
+    padding: 11px;
+    border: 1px solid gray;
+    border-radius: 2px;
+    z-index: -1;
+}
+
+#flex .text{
+    margin-left: 55px;
+    margin-top: 82px;
+    position: absolute;
+    visibility: hidden;
+    z-index: 1;
+}
+
+#flex .white{
+    color: white;
+}
+
+#flex .gray{
+    margin-left: 2px;
+    color: lightgray;
+}
+
+#flex .green{
+    width: 100px;
+    height: 60px;
+    color: #32ff3b;
+}
+
+#flex button{
+    padding: 7px 20px;
+    margin-top: 6px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    background: linear-gradient(#fcfff6, #e6f0e2) #e5f9d5;
+}
+
+#flex .details{
+    margin-right: 10px;
+}
+
+#flex .image:hover > img{
+    -webkit-filter: brightness(50%);
+}
+
+#flex .image:hover > .text{
+    visibility: visible;
+}
+
+#flex img:hover{
+    -webkit-filter: brightness(50%);
+}
+
+#flex button:hover{
+    background: #32ff3b;
+}
+
+#flex button:active{
+    background: linear-gradient(#e5f9d5 , #fcfff6) #e6f0e2;
+}
+
