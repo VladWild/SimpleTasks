@@ -1,8 +1,28 @@
 #footer {
-    position: fixed; /* Фиксированное положение */
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
     left: 0;
-    bottom: 0; /* Левый нижний угол */
+    bottom: 0;
     height: 45px;
-    background: #181e2c; /* Цвет фона */
-    width: 100%; /* Ширина слоя */
+    background: #181e2c;
+    width: 100%;
+    color: white;
+}
+
+#footer .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 100%;
+    background: #1f2637;
+}
+
+#footer .button:hover{
+    background: #15a4fa;
+}
+
+#footer .button:active{
+    background: rgba(21, 164, 250, 0.53);
 }

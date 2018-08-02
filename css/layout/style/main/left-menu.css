@@ -3,12 +3,20 @@
     float: left;
     width: 200px;
     height: 100%;
-    background: lightgray;
+    background: #19202e;
 }
 
 #left-menu > div{
     margin-bottom: 5px;
+    border-top: 2px groove #282f41;
+    border-bottom: 2px groove #141824;
 }
+
+#left-menu > div:first-child{
+    border-top: 0;
+}
+
+/*add-book*/
 
 #left-menu .add-book{
     display: flex;
@@ -46,19 +54,124 @@
 }
 
 #left-menu .add-book button:hover{
-    background: #b95d50;
+    background: #ff875a;
+    box-shadow: 0 0 15px #F2795A;
 }
 
 #left-menu .add-book button:active{
     background: #ffbea3;
+    box-shadow: 0 0 0;
 }
 
 #left-menu .add-book span{
     color: white;
 }
 
+/*list*/
+
 #left-menu .list{
     width: 100%;
-    height: 160px;
+    height: 260px;
     background: #1f2637;
 }
+
+#left-menu .section{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    color: #78829d;
+    font-size: 10pt;
+}
+
+#left-menu .section > i{
+    margin-left: 25px;
+    margin-right: 10px;
+}
+
+#left-menu .section:hover{
+    background: #15a4fa;
+    color: white;
+}
+
+/*mark-list*/
+
+#left-menu .mark-list{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    background: #1f2637;
+    color: #78829d;
+    font-size: 10pt;
+}
+
+#left-menu ul > li{
+    margin-bottom: 10px;
+}
+
+#left-menu ul li:nth-child(1){
+    color: #e64c66;
+}
+
+#left-menu ul li:nth-child(2){
+    color: #ffab00;
+}
+
+#left-menu ul li:nth-child(3){
+    color: #00bfdd;
+}
+
+#left-menu ul li:nth-child(4){
+    color: #7874cf;
+    margin-bottom: 0;
+}
+
+#left-menu li span {
+    color: #78829d;
+}
+
+/*notice*/
+
+#left-menu .notice{
+    display: inline-block;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: #1f2637;
+    color: #545d74;
+    font-size: 10pt;
+}
+
+#left-menu .notice > .notification{
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    margin-left: 22px;
+    margin-top: 33px;
+    margin-right: 16px;
+}
+
+#left-menu .notification i{
+    margin-right: 10px;
+    margin-top: 4px;
+}
+
+#left-menu .notification .info{
+    color: #576b82;
+}
+
+#left-menu .description{
+    display: inline-block;
+    justify-content: flex-start;
+}
+
+#left-menu .description > div{
+    margin-bottom: 10px;
+}
+
+
+
