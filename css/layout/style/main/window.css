@@ -76,10 +76,37 @@
 /*books*/
 
 #window > #books{
-    height: 77%;
+    height: 85%;
     background: white;
+    overflow-x: hidden;
     overflow-y: auto;
 }
+
+/*scrollbar*/
+/*-----------------------------------------*/
+
+#window > #books::-webkit-scrollbar{
+    width: 6px;
+    background-color: white;
+    padding: 2px;
+    margin: 2px;
+}
+
+#window > #books::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background-color: #bac3d2;
+}
+
+#window > #books::-webkit-scrollbar-track{
+    width: 10px;
+    background-color: #E7F0FF;
+}
+
+#window > #books::-webkit-scrollbar-thumb:active {
+    background-color: #a1aab9;
+}
+
+/*-----------------------------------------*/
 
 #window .book{
     display: inline-block;
@@ -107,6 +134,9 @@
     font-size: 10pt;
 }
 
+/*stars*/
+/*----------------------------------------------*/
+
 #window .book > .stars{
     display: flex;
     align-content: center;
@@ -133,3 +163,10 @@
 #window .book > .stars li:hover {
     box-shadow: inset 0 0 1px orange;
 }
+
+#window .book > .stars li:active{
+    color: #df7f00;
+    box-shadow: 0 0 0 0;
+}
+
+/*----------------------------------------------*/
