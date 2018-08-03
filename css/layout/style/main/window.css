@@ -76,17 +76,60 @@
 /*books*/
 
 #window > #books{
-    height: 100%;
+    height: 77%;
     background: white;
+    overflow-y: auto;
 }
 
 #window .book{
+    display: inline-block;
     float: left;
     margin-left: 20px;
     margin-top: 30px;
     height: 350px;
     width: 200px;
-    background: lightgray;
+    /*background: lightgray;*/
 }
 
+#window .book > img{
+    width: 100%;
+    height: 270px;
+    border-radius: 7px;
+    margin-bottom: 10pt;
+}
 
+#window .book > .name-book{
+    font-size: 11pt;
+    margin-bottom: 5px;
+}
+
+#window .book > .author{
+    font-size: 10pt;
+}
+
+#window .book > .stars{
+    display: flex;
+    align-content: center;
+    height: 27px;
+    width: 100%;
+    /*background: greenyellow;*/
+}
+
+#window .book > .stars ul{
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+    margin: 0;
+    padding: 0;
+}
+
+#window .book > .stars li{
+    list-style-type: none;
+    margin-right: 2px;
+    color: orange;
+    cursor: pointer;
+}
+
+#window .book > .stars li:hover {
+    box-shadow: inset 0 0 1px orange;
+}
