@@ -1,0 +1,35 @@
+h2 {
+    margin: 40px 20px 10px;
+    padding: 40px 10px;
+    background: cadetblue;
+    color: white;
+}
+
+p {
+    margin: 10px 20px;
+    padding: 40px 10px;
+    background: darkseagreen;
+}
+
+a {
+    padding: 0 8px;
+}
+
+.vl{
+    border-right: 2px solid red;
+}
+
+.vl:hover{
+    border-right: 0;
+    padding: 0 8px 0 0;
+    margin: 0 2px 0 8px;
+    animation-fill-mode: forwards;
+    animation-duration: 500ms;
+    animation-name: downline;
+}
+
+@keyframes downline {
+    100% {
+        border-bottom: 5px solid blue;
+    }
+}

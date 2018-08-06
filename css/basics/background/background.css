@@ -1,0 +1,11 @@
+div{
+    height: 200px;
+    background-image: url(../../../resources/image.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    background-color: red;
+    width: 50%;
+}

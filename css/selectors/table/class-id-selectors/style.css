@@ -1,0 +1,31 @@
+#body{
+    margin: 2px;
+    padding: 2px;
+}
+
+#table{
+    font-family: Arial;
+}
+
+.head{
+    padding: 7px;
+    color: #6e8abf;
+    font-size: 9pt;
+    background-color: #c0e3ee;
+}
+
+.row{
+    padding: 14px;
+    color: #3d81ad;
+    text-align: left;
+    vertical-align: middle;
+    font-size: 12pt;
+}
+
+.odd{
+    background-color: #d9e8fa;
+}
+
+.even{
+    background-color: #b2daf5;
+}
